@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- إذا كنت تقدم تطبيق الويب الخاص بك في مسار غير الجذر، قم بتغيير قيمة href أدناه لتعكس المسار الأساسي الذي تقدم منه. -->
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- العلامات الأيقونية لـ iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="schoolacademy">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>schoolacademy</title>
+    <link rel="manifest" href="manifest.json">
+
+    <!-- إضافة Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-firestore.js"></script>
+
+    <script type="module">
+        // تهيئة Firebase للويب const firebaseConfig = { apiKey: "AIzaSyBN6OWyo88iVVTNz1-id3NKy_DU7_j4xdY", authDomain: "scoolacademy-68b1a.firebaseapp.com", projectId: "scoolacademy-68b1a", storageBucket: "scoolacademy-68b1a.appspot.com", messagingSenderId:
+        "681706658917", appId: "1:681706658917:web:b86b62c845356c44ce3a8c", measurementId: "G-87KVLY1NPL" }; // تهيئة Firebase const app = firebase.initializeApp(firebaseConfig); const analytics = firebase.analytics(app);
+    </script>
+</head>
+
+<body>
+    <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681706658917",
+    "project_id": "scoolacademy-68b1a",
+    "storage_bucket": "scoolacademy-68b1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681706658917:android:e95b89a70a974268ce3a8c",
+        "android_client_info": {
+          "package_name": "com.example.schoolacademy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjLjqiqNIzyKbwARZyXoLsqy7ELaf4-ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
